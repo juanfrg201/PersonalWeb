@@ -5,7 +5,7 @@
       <section class="relative block" style="height: 500px;">
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
-          style='background-image: url("https://c8.alamy.com/compes/e843r1/patron-de-vectores-geometricos-perfecta-para-textura-abstracta-wallpapers-y-antecedentes-e843r1.jpg");'
+          style='background-image: url("https://www.todofondos.net/wp-content/uploads/4k-ultra-hd-galaxy-wallpapers-top-gratis-4k-ultra-hd-galaxy.-wallpaper-4k-ultra-hd-de-galaxia-scaled.jpg");'
         >
           <span
             id="blackOverlay"

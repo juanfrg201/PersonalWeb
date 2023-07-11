@@ -38,47 +38,7 @@
             class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64"
           >
             <div class="px-6">
-              <div class="flex flex-wrap justify-center">
-                <div
-                  class="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center"
-                >
-                  <div class="relative">
-                    <img
-                      alt="..."
-                      src="@/assets/img/personal_photo.jpg"
-                      class="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16"
-                      style="max-width: 150px;"
-                    />
-                  </div>
-                </div>
-                <div
-                  class="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center"
-                >
-                  <div class="py-6 px-3 mt-32 sm:mt-0">
-                    <a href="https://www.linkedin.com/in/jfruizg" target="_blank" rel="noopener noreferrer"
-											class="bg-pink-500 active:bg-pink-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1"
-											style="transition: all 0.15s ease 0s;">
-											Connect
-										</a>
-                  </div>
-                </div>
-                <div class="w-full lg:w-4/12 px-4 lg:order-1">
-                  <div class="flex justify-center py-4 lg:pt-4 pt-8">
-                    <div class="mr-4 p-3 text-center">
-                      <span
-                        class="text-xl font-bold block uppercase tracking-wide text-gray-700"
-                        >22</span
-                      ><span class="text-sm text-gray-500">Personal Proyects</span>
-                    </div>
-                    <div class="mr-4 p-3 text-center">
-                      <span
-                        class="text-xl font-bold block uppercase tracking-wide text-gray-700"
-                        >10</span
-                      ><span class="text-sm text-gray-500">Experiences</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <ModalForm />
               <div class="text-center mt-12">
                 <h3
                   class="text-4xl font-semibold leading-normal mb-2 text-gray-800 mb-2"
@@ -106,16 +66,14 @@
                 <div class="flex flex-wrap justify-center">
                   <div class="w-full lg:w-9/12 px-4">
                     <p class="mb-4 text-lg leading-relaxed text-gray-800">
-											I am a competent software developer with a good teamwork and great communication,
-											I am characterized by my desire to learn new things, extensive knowledge about 
-											ruby on rails with database management in postgresql, additionally I have good 
-											knowledge with python flask, with the use of databases with Mysql, ending with 
-											a knowledge of Java. I have a proficient level of English and I want to continue 
-											to grow by using the language on a daily basis to improve my skills. 
+											Bilingual Systems Engineering student. Experience in software development in frameworks, 
+                      (ruby on rails, vue.js and python flask) and Frontend management (Html, CSS and JavaScript, management 
+                      of libraries such as tailwind and bulma). Knowledge in database management in postgresql and Mysql. Application 
+                      of agile methodologies such as SCRUM and Kanban. Development with MVC structure and handling of API and 
+                      monolithic architectures. Experience using Sidekiq, Heroku, Rollbar and test manager using RSpec under ruby on rails.
+                       Results and learning oriented, ability to work in a team, good interpersonal and 
+                      communication skills. Easy to analyze and solve problems, ability to adapt to new work environments.
                     </p>
-                    <a href="/" class="font-normal text-pink-500"
-                      >Show more</a
-                    >
                   </div>
                 </div>
               </div>
@@ -131,11 +89,13 @@
 // @ is an alias to /src
 
 import NavBar from '@/components/NavBar.vue'
+import ModalForm from '@/components/ModalForm.vue'
 
 export default {
   name: 'DashboardIndex',
   components: {
-    NavBar
+    NavBar,
+    ModalForm
   }
 }
 </script>
