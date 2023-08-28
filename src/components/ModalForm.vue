@@ -30,7 +30,7 @@
         <div class="mr-4 p-3 text-center">
           <span
             class="text-xl font-bold block uppercase tracking-wide text-gray-700"
-            >4</span
+            >6</span
           ><span class="text-sm text-gray-500">Personal Proyects</span>
         </div>
         <div class="mr-4 p-3 text-center">
